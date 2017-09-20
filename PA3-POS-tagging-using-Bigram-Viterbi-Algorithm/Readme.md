@@ -7,51 +7,51 @@ Following is the sample output for the POS tagging of the sentence: mark has fis
 
 PROCESSING SENTENCE: mark has fish
 
-FINAL VITERBI NETWORK
-P(mark=noun) = 0.0720000000
-P(mark=verb) = 0.0060000000
-P(mark=inf) = 0.0000000100
-P(mark=prep) = 0.0000000100
-P(has=noun) = 0.0000004620
-P(has=verb) = 0.0014040000
-P(has=inf) = 0.0000001320
-P(has=prep) = 0.0000021600
-P(fish=noun) = 0.0000864864
-P(fish=verb) = 0.0000000210
-P(fish=inf) = 0.0000000309
-P(fish=prep) = 0.0000000351
+FINAL VITERBI NETWORK <br />
+P(mark=noun) = 0.0720000000 <br />
+P(mark=verb) = 0.0060000000 <br />
+P(mark=inf) = 0.0000000100 <br />
+P(mark=prep) = 0.0000000100 <br />
+P(has=noun) = 0.0000004620 <br />
+P(has=verb) = 0.0014040000 <br />
+P(has=inf) = 0.0000001320 <br />
+P(has=prep) = 0.0000021600 <br />
+P(fish=noun) = 0.0000864864 <br />
+P(fish=verb) = 0.0000000210 <br />
+P(fish=inf) = 0.0000000309 <br />
+P(fish=prep) = 0.0000000351 <br />
 
 
-FINAL BACKPTR NETWORK
-P(has=noun) = verb
-P(has=verb) = noun
-P(has=inf) = verb
-P(has=prep) = noun
-P(fish=noun) = verb
-P(fish=verb) = noun
-P(fish=inf) = verb
-P(fish=prep) = verb
+FINAL BACKPTR NETWORK <br />
+P(has=noun) = verb <br />
+P(has=verb) = noun <br />
+P(has=inf) = verb<br />
+P(has=prep) = noun<br />
+P(fish=noun) = verb<br />
+P(fish=verb) = noun<br />
+P(fish=inf) = verb<br />
+P(fish=prep) = verb<br />
 
 
-BEST TAG SEQUENCE HAS PROBABILITY=0.0000432432
-fish->noun
-has->verb
-mark->noun
+BEST TAG SEQUENCE HAS PROBABILITY=0.0000432432<br />
+fish->noun<br />
+has->verb<br />
+mark->noun<br />
 
 
-FORWARD ALGORITHM RESULTS
-P(mark=noun) = 0.0720000000
-P(mark=verb) = 0.0060000000
-P(mark=inf) = 0.0000000100
-P(mark=prep) = 0.0000000100
-P(has=noun) = 0.0000004627
-P(has=verb) = 0.0014040182
-P(has=inf) = 0.0000001327
-P(has=prep) = 0.0000023100
-P(fish=noun) = 0.0000866446
-P(fish=verb) = 0.0000000379
-P(fish=inf) = 0.0000000309
-P(fish=prep) = 0.0000000351
+FORWARD ALGORITHM RESULTS<br />
+P(mark=noun) = 0.0720000000<br />
+P(mark=verb) = 0.0060000000<br />
+P(mark=inf) = 0.0000000100<br />
+P(mark=prep) = 0.0000000100<br />
+P(has=noun) = 0.0000004627<br />
+P(has=verb) = 0.0014040182<br />
+P(has=inf) = 0.0000001327<br />
+P(has=prep) = 0.0000023100<br />
+P(fish=noun) = 0.0000866446<br />
+P(fish=verb) = 0.0000000379<br />
+P(fish=inf) = 0.0000000309<br />
+P(fish=prep) = 0.0000000351<br />
 
 
 
